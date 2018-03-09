@@ -1,0 +1,268 @@
+09-Mar-2018 14:35:29.748 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server version:        Apache Tomcat (TomEE)/8.5.11 (7.0.3)
+09-Mar-2018 14:35:29.749 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server built:          Jan 10 2017 21:02:52 UTC
+09-Mar-2018 14:35:29.749 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server number:         8.5.11.0
+09-Mar-2018 14:35:29.749 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Name:               Mac OS X
+09-Mar-2018 14:35:29.750 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Version:            10.13.3
+09-Mar-2018 14:35:29.750 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Architecture:          x86_64
+09-Mar-2018 14:35:29.750 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre
+09-Mar-2018 14:35:29.750 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Version:           1.8.0_131-b11
+09-Mar-2018 14:35:29.750 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Oracle Corporation
+09-Mar-2018 14:35:29.750 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         /Users/matthewbroadhead/git/velocity-reproducer/target/apache-tomee
+09-Mar-2018 14:35:29.750 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         /Users/matthewbroadhead/git/velocity-reproducer/target/apache-tomee
+09-Mar-2018 14:35:29.751 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+09-Mar-2018 14:35:29.752 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dorg.apache.catalina.STRICT_SERVLET_COMPLIANCE=false
+09-Mar-2018 14:35:29.752 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dopenejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager
+09-Mar-2018 14:35:29.752 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dtomee.remote.support=true
+09-Mar-2018 14:35:29.752 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dopenejb.system.apps=false
+09-Mar-2018 14:35:29.752 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dtomee.noshutdownhook=true
+09-Mar-2018 14:35:29.752 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dtomee.jsp-development=true
+09-Mar-2018 14:35:29.752 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=/Users/matthewbroadhead/git/velocity-reproducer/target/apache-tomee/conf/logging.properties
+09-Mar-2018 14:35:29.752 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -javaagent:/Users/matthewbroadhead/git/velocity-reproducer/target/apache-tomee/lib/openejb-javaagent.jar
+09-Mar-2018 14:35:29.753 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Mar-2018 14:35:29.753 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=/Users/matthewbroadhead/git/velocity-reproducer/target/apache-tomee/temp
+09-Mar-2018 14:35:29.753 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.endorsed.dirs=/Users/matthewbroadhead/git/velocity-reproducer/target/apache-tomee/endorsed
+09-Mar-2018 14:35:29.753 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=/Users/matthewbroadhead/git/velocity-reproducer/target/apache-tomee
+09-Mar-2018 14:35:29.753 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=/Users/matthewbroadhead/git/velocity-reproducer/target/apache-tomee
+09-Mar-2018 14:35:29.753 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.ext.dirs=/Users/matthewbroadhead/git/velocity-reproducer/target/apache-tomee/lib
+09-Mar-2018 14:35:29.753 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dorg.apache.tomcat.util.http.ServerCookie.ALLOW_HTTP_SEPARATORS_IN_V0=true
+09-Mar-2018 14:35:29.753 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -ea
+09-Mar-2018 14:35:29.753 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/matthewbroadhead/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+09-Mar-2018 14:35:30.030 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+09-Mar-2018 14:35:30.114 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+09-Mar-2018 14:35:30.119 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["ajp-nio-8009"]
+09-Mar-2018 14:35:30.121 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+09-Mar-2018 14:35:30.487 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'tomee.remote.support=true'
+09-Mar-2018 14:35:30.498 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+09-Mar-2018 14:35:30.632 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+09-Mar-2018 14:35:30.632 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+09-Mar-2018 14:35:30.633 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Fri Mar 09 14:35:30 CET 2018
+09-Mar-2018 14:35:30.633 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2017 (C) Apache OpenEJB Project, All Rights Reserved.
+09-Mar-2018 14:35:30.633 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 7.0.3
+09-Mar-2018 14:35:30.634 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20170307
+09-Mar-2018 14:35:30.634 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 10:02
+09-Mar-2018 14:35:30.634 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+09-Mar-2018 14:35:30.650 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = /Users/matthewbroadhead/git/velocity-reproducer/target/apache-tomee
+09-Mar-2018 14:35:30.650 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = /Users/matthewbroadhead/git/velocity-reproducer/target/apache-tomee
+09-Mar-2018 14:35:30.653 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@f2f2cc1
+09-Mar-2018 14:35:30.654 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+09-Mar-2018 14:35:30.735 INFO [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is '/Users/matthewbroadhead/git/velocity-reproducer/target/apache-tomee/conf/tomee.xml'
+09-Mar-2018 14:35:30.818 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+09-Mar-2018 14:35:30.820 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+09-Mar-2018 14:35:30.824 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.system.apps=false'
+09-Mar-2018 14:35:30.824 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+09-Mar-2018 14:35:30.840 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+09-Mar-2018 14:35:30.907 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+09-Mar-2018 14:35:31.003 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf)
+09-Mar-2018 14:35:31.263 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+09-Mar-2018 14:35:31.356 INFO [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+09-Mar-2018 14:35:31.356 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+09-Mar-2018 14:35:31.356 INFO [main] org.apache.openejb.server.SimpleServiceManager.start -------
+09-Mar-2018 14:35:31.356 INFO [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+09-Mar-2018 14:35:31.357 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'tomee.noshutdownhook=true'
+09-Mar-2018 14:35:31.358 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initialization processed in 2280 ms
+09-Mar-2018 14:35:31.385 INFO [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+09-Mar-2018 14:35:31.386 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+09-Mar-2018 14:35:31.392 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting service Catalina
+09-Mar-2018 14:35:31.392 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet Engine: Apache Tomcat (TomEE)/8.5.11 (7.0.3)
+09-Mar-2018 14:35:31.416 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive /Users/matthewbroadhead/git/velocity-reproducer/target/apache-tomee/webapps/velocity-reproducer-1.0-SNAPSHOT.war
+09-Mar-2018 14:35:31.424 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /velocity-reproducer-1.0-SNAPSHOT
+09-Mar-2018 14:35:31.426 INFO [localhost-startStop-1] org.apache.openejb.util.JarExtractor.extract Extracting jar: /Users/matthewbroadhead/git/velocity-reproducer/target/apache-tomee/webapps/velocity-reproducer-1.0-SNAPSHOT.war
+09-Mar-2018 14:35:31.433 INFO [localhost-startStop-1] org.apache.openejb.util.JarExtractor.extract Extracted path: /Users/matthewbroadhead/git/velocity-reproducer/target/apache-tomee/webapps/velocity-reproducer-1.0-SNAPSHOT
+09-Mar-2018 14:35:31.434 INFO [localhost-startStop-1] org.apache.openejb.util.OptionsLog.info Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+09-Mar-2018 14:35:31.689 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /Users/matthewbroadhead/git/velocity-reproducer/target/apache-tomee/webapps/velocity-reproducer-1.0-SNAPSHOT
+09-Mar-2018 14:35:31.815 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+09-Mar-2018 14:35:31.815 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean velocity-reproducer-1.0-SNAPSHOT.Comp1619926533: Container(type=MANAGED, id=Default Managed Container)
+09-Mar-2018 14:35:31.815 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+09-Mar-2018 14:35:31.826 INFO [localhost-startStop-1] org.apache.openejb.core.managed.SimplePassivater.init Using directory /Users/matthewbroadhead/git/velocity-reproducer/target/apache-tomee/temp for stateful session passivation
+09-Mar-2018 14:35:31.869 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/Users/matthewbroadhead/git/velocity-reproducer/target/apache-tomee/webapps/velocity-reproducer-1.0-SNAPSHOT" loaded.
+09-Mar-2018 14:35:31.875 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /Users/matthewbroadhead/git/velocity-reproducer/target/apache-tomee/webapps/velocity-reproducer-1.0-SNAPSHOT
+09-Mar-2018 14:35:31.996 INFO [localhost-startStop-1] org.apache.openejb.cdi.CdiBuilder.initSingleton Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@f2f2cc1
+09-Mar-2018 14:35:32.137 INFO [localhost-startStop-1] org.apache.openejb.cdi.OpenEJBLifecycle.startApplication OpenWebBeans Container is starting...
+09-Mar-2018 14:35:32.149 INFO [localhost-startStop-1] org.apache.webbeans.plugins.PluginLoader.startUp Adding OpenWebBeansPlugin : [CdiPlugin]
+09-Mar-2018 14:35:32.742 SEVERE [localhost-startStop-1] org.apache.openejb.cdi.OpenEJBLifecycle.startApplication CDI Beans module deployment failed
+ org.apache.webbeans.exception.WebBeansDeploymentException: javax.enterprise.inject.UnsatisfiedResolutionException: Api type [com.mycompany.app.MyApplicationScopedBean] is not found with the qualifiers 
+Qualifiers: [@javax.enterprise.inject.Default()]
+for injection into Field Injection Point, field name :  myApplicationScopedBean, Bean Owner : [MyRS, WebBeansType:MANAGED, Name:null, API Types:[java.lang.Object,com.mycompany.app.MyRS], Qualifiers:[javax.enterprise.inject.Default,javax.enterprise.inject.Any]]
+	at org.apache.webbeans.config.BeansDeployer.deploy(BeansDeployer.java:327)
+	at org.apache.openejb.cdi.OpenEJBLifecycle.startApplication(OpenEJBLifecycle.java:196)
+	at org.apache.openejb.cdi.ThreadSingletonServiceImpl.initialize(ThreadSingletonServiceImpl.java:189)
+	at org.apache.openejb.cdi.CdiBuilder.build(CdiBuilder.java:41)
+	at org.apache.openejb.assembler.classic.Assembler.createApplication(Assembler.java:914)
+	at org.apache.openejb.assembler.classic.Assembler.createApplication(Assembler.java:718)
+	at org.apache.tomee.catalina.TomcatWebAppBuilder.startInternal(TomcatWebAppBuilder.java:1298)
+	at org.apache.tomee.catalina.TomcatWebAppBuilder.configureStart(TomcatWebAppBuilder.java:1124)
+	at org.apache.tomee.catalina.GlobalListenerSupport.lifecycleEvent(GlobalListenerSupport.java:133)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5087)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:952)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1823)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.enterprise.inject.UnsatisfiedResolutionException: Api type [com.mycompany.app.MyApplicationScopedBean] is not found with the qualifiers 
+Qualifiers: [@javax.enterprise.inject.Default()]
+for injection into Field Injection Point, field name :  myApplicationScopedBean, Bean Owner : [MyRS, WebBeansType:MANAGED, Name:null, API Types:[java.lang.Object,com.mycompany.app.MyRS], Qualifiers:[javax.enterprise.inject.Default,javax.enterprise.inject.Any]]
+	at org.apache.webbeans.util.InjectionExceptionUtil.throwUnsatisfiedResolutionException(InjectionExceptionUtil.java:65)
+	at org.apache.webbeans.container.InjectionResolver.checkInjectionPoint(InjectionResolver.java:234)
+	at org.apache.webbeans.container.BeanManagerImpl.validate(BeanManagerImpl.java:1209)
+	at org.apache.webbeans.util.WebBeansUtil.validate(WebBeansUtil.java:1709)
+	at org.apache.webbeans.config.BeansDeployer.validate(BeansDeployer.java:913)
+	at org.apache.webbeans.config.BeansDeployer.validateInjectionPoints(BeansDeployer.java:824)
+	at org.apache.webbeans.config.BeansDeployer.deploy(BeansDeployer.java:307)
+	... 21 more
+
+09-Mar-2018 14:35:32.743 SEVERE [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.startInternal Unable to deploy collapsed ear in war StandardEngine[Catalina].StandardHost[localhost].StandardContext[/velocity-reproducer-1.0-SNAPSHOT]
+ javax.enterprise.inject.spi.DeploymentException: couldn't start owb context
+	at org.apache.openejb.cdi.ThreadSingletonServiceImpl.initialize(ThreadSingletonServiceImpl.java:191)
+	at org.apache.openejb.cdi.CdiBuilder.build(CdiBuilder.java:41)
+	at org.apache.openejb.assembler.classic.Assembler.createApplication(Assembler.java:914)
+	at org.apache.openejb.assembler.classic.Assembler.createApplication(Assembler.java:718)
+	at org.apache.tomee.catalina.TomcatWebAppBuilder.startInternal(TomcatWebAppBuilder.java:1298)
+	at org.apache.tomee.catalina.TomcatWebAppBuilder.configureStart(TomcatWebAppBuilder.java:1124)
+	at org.apache.tomee.catalina.GlobalListenerSupport.lifecycleEvent(GlobalListenerSupport.java:133)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5087)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:952)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1823)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.openejb.OpenEJBRuntimeException: org.apache.webbeans.exception.WebBeansDeploymentException: javax.enterprise.inject.UnsatisfiedResolutionException: Api type [com.mycompany.app.MyApplicationScopedBean] is not found with the qualifiers 
+Qualifiers: [@javax.enterprise.inject.Default()]
+for injection into Field Injection Point, field name :  myApplicationScopedBean, Bean Owner : [MyRS, WebBeansType:MANAGED, Name:null, API Types:[java.lang.Object,com.mycompany.app.MyRS], Qualifiers:[javax.enterprise.inject.Default,javax.enterprise.inject.Any]]
+	at org.apache.openejb.cdi.OpenEJBLifecycle.startApplication(OpenEJBLifecycle.java:200)
+	at org.apache.openejb.cdi.ThreadSingletonServiceImpl.initialize(ThreadSingletonServiceImpl.java:189)
+	... 19 more
+Caused by: org.apache.webbeans.exception.WebBeansDeploymentException: javax.enterprise.inject.UnsatisfiedResolutionException: Api type [com.mycompany.app.MyApplicationScopedBean] is not found with the qualifiers 
+Qualifiers: [@javax.enterprise.inject.Default()]
+for injection into Field Injection Point, field name :  myApplicationScopedBean, Bean Owner : [MyRS, WebBeansType:MANAGED, Name:null, API Types:[java.lang.Object,com.mycompany.app.MyRS], Qualifiers:[javax.enterprise.inject.Default,javax.enterprise.inject.Any]]
+	at org.apache.webbeans.config.BeansDeployer.deploy(BeansDeployer.java:327)
+	at org.apache.openejb.cdi.OpenEJBLifecycle.startApplication(OpenEJBLifecycle.java:196)
+	... 20 more
+Caused by: javax.enterprise.inject.UnsatisfiedResolutionException: Api type [com.mycompany.app.MyApplicationScopedBean] is not found with the qualifiers 
+Qualifiers: [@javax.enterprise.inject.Default()]
+for injection into Field Injection Point, field name :  myApplicationScopedBean, Bean Owner : [MyRS, WebBeansType:MANAGED, Name:null, API Types:[java.lang.Object,com.mycompany.app.MyRS], Qualifiers:[javax.enterprise.inject.Default,javax.enterprise.inject.Any]]
+	at org.apache.webbeans.util.InjectionExceptionUtil.throwUnsatisfiedResolutionException(InjectionExceptionUtil.java:65)
+	at org.apache.webbeans.container.InjectionResolver.checkInjectionPoint(InjectionResolver.java:234)
+	at org.apache.webbeans.container.BeanManagerImpl.validate(BeanManagerImpl.java:1209)
+	at org.apache.webbeans.util.WebBeansUtil.validate(WebBeansUtil.java:1709)
+	at org.apache.webbeans.config.BeansDeployer.validate(BeansDeployer.java:913)
+	at org.apache.webbeans.config.BeansDeployer.validateInjectionPoints(BeansDeployer.java:824)
+	at org.apache.webbeans.config.BeansDeployer.deploy(BeansDeployer.java:307)
+	... 21 more
+
+09-Mar-2018 14:35:32.743 SEVERE [localhost-startStop-1] sun.reflect.NativeMethodAccessorImpl.invoke ContainerBase.removeChild: destroy: 
+ org.apache.catalina.LifecycleException: An invalid Lifecycle transition was attempted ([before_destroy]) for component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/velocity-reproducer-1.0-SNAPSHOT]] in state [STARTING_PREP]
+	at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:402)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:292)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:854)
+	at org.apache.tomee.catalina.TomcatWebAppBuilder.undeploy(TomcatWebAppBuilder.java:1627)
+	at org.apache.tomee.catalina.TomcatWebAppBuilder.undeploy(TomcatWebAppBuilder.java:1607)
+	at org.apache.tomee.catalina.TomcatWebAppBuilder.startInternal(TomcatWebAppBuilder.java:1307)
+	at org.apache.tomee.catalina.TomcatWebAppBuilder.configureStart(TomcatWebAppBuilder.java:1124)
+	at org.apache.tomee.catalina.GlobalListenerSupport.lifecycleEvent(GlobalListenerSupport.java:133)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5087)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:952)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1823)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+09-Mar-2018 14:35:32.745 SEVERE [localhost-startStop-1] sun.reflect.NativeMethodAccessorImpl.invoke ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/velocity-reproducer-1.0-SNAPSHOT]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:952)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1823)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.tomee.catalina.TomEERuntimeException: javax.enterprise.inject.spi.DeploymentException: couldn't start owb context
+	at org.apache.tomee.catalina.TomcatWebAppBuilder.startInternal(TomcatWebAppBuilder.java:1310)
+	at org.apache.tomee.catalina.TomcatWebAppBuilder.configureStart(TomcatWebAppBuilder.java:1124)
+	at org.apache.tomee.catalina.GlobalListenerSupport.lifecycleEvent(GlobalListenerSupport.java:133)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5087)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: javax.enterprise.inject.spi.DeploymentException: couldn't start owb context
+	at org.apache.openejb.cdi.ThreadSingletonServiceImpl.initialize(ThreadSingletonServiceImpl.java:191)
+	at org.apache.openejb.cdi.CdiBuilder.build(CdiBuilder.java:41)
+	at org.apache.openejb.assembler.classic.Assembler.createApplication(Assembler.java:914)
+	at org.apache.openejb.assembler.classic.Assembler.createApplication(Assembler.java:718)
+	at org.apache.tomee.catalina.TomcatWebAppBuilder.startInternal(TomcatWebAppBuilder.java:1298)
+	... 15 more
+Caused by: org.apache.openejb.OpenEJBRuntimeException: org.apache.webbeans.exception.WebBeansDeploymentException: javax.enterprise.inject.UnsatisfiedResolutionException: Api type [com.mycompany.app.MyApplicationScopedBean] is not found with the qualifiers 
+Qualifiers: [@javax.enterprise.inject.Default()]
+for injection into Field Injection Point, field name :  myApplicationScopedBean, Bean Owner : [MyRS, WebBeansType:MANAGED, Name:null, API Types:[java.lang.Object,com.mycompany.app.MyRS], Qualifiers:[javax.enterprise.inject.Default,javax.enterprise.inject.Any]]
+	at org.apache.openejb.cdi.OpenEJBLifecycle.startApplication(OpenEJBLifecycle.java:200)
+	at org.apache.openejb.cdi.ThreadSingletonServiceImpl.initialize(ThreadSingletonServiceImpl.java:189)
+	... 19 more
+Caused by: org.apache.webbeans.exception.WebBeansDeploymentException: javax.enterprise.inject.UnsatisfiedResolutionException: Api type [com.mycompany.app.MyApplicationScopedBean] is not found with the qualifiers 
+Qualifiers: [@javax.enterprise.inject.Default()]
+for injection into Field Injection Point, field name :  myApplicationScopedBean, Bean Owner : [MyRS, WebBeansType:MANAGED, Name:null, API Types:[java.lang.Object,com.mycompany.app.MyRS], Qualifiers:[javax.enterprise.inject.Default,javax.enterprise.inject.Any]]
+	at org.apache.webbeans.config.BeansDeployer.deploy(BeansDeployer.java:327)
+	at org.apache.openejb.cdi.OpenEJBLifecycle.startApplication(OpenEJBLifecycle.java:196)
+	... 20 more
+Caused by: javax.enterprise.inject.UnsatisfiedResolutionException: Api type [com.mycompany.app.MyApplicationScopedBean] is not found with the qualifiers 
+Qualifiers: [@javax.enterprise.inject.Default()]
+for injection into Field Injection Point, field name :  myApplicationScopedBean, Bean Owner : [MyRS, WebBeansType:MANAGED, Name:null, API Types:[java.lang.Object,com.mycompany.app.MyRS], Qualifiers:[javax.enterprise.inject.Default,javax.enterprise.inject.Any]]
+	at org.apache.webbeans.util.InjectionExceptionUtil.throwUnsatisfiedResolutionException(InjectionExceptionUtil.java:65)
+	at org.apache.webbeans.container.InjectionResolver.checkInjectionPoint(InjectionResolver.java:234)
+	at org.apache.webbeans.container.BeanManagerImpl.validate(BeanManagerImpl.java:1209)
+	at org.apache.webbeans.util.WebBeansUtil.validate(WebBeansUtil.java:1709)
+	at org.apache.webbeans.config.BeansDeployer.validate(BeansDeployer.java:913)
+	at org.apache.webbeans.config.BeansDeployer.validateInjectionPoints(BeansDeployer.java:824)
+	at org.apache.webbeans.config.BeansDeployer.deploy(BeansDeployer.java:307)
+	... 21 more
+
+09-Mar-2018 14:35:32.745 SEVERE [localhost-startStop-1] sun.reflect.NativeMethodAccessorImpl.invoke Error deploying web application archive /Users/matthewbroadhead/git/velocity-reproducer/target/apache-tomee/webapps/velocity-reproducer-1.0-SNAPSHOT.war
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/velocity-reproducer-1.0-SNAPSHOT]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:756)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:952)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1823)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+09-Mar-2018 14:35:32.747 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive /Users/matthewbroadhead/git/velocity-reproducer/target/apache-tomee/webapps/velocity-reproducer-1.0-SNAPSHOT.war has finished in 1,329 ms
+09-Mar-2018 14:35:32.768 INFO [Catalina-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Unable to set the web application class loader property [clearReferencesRmiTargets] to [true] as the property does not exist.
+09-Mar-2018 14:35:32.827 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler [http-nio-8080]
+09-Mar-2018 14:35:32.835 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler [ajp-nio-8009]
+09-Mar-2018 14:35:32.836 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Server startup in 1478 ms
+09-Mar-2018 14:35:57.545 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Mar-2018 14:35:57.546 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["http-nio-8080"]
+09-Mar-2018 14:35:57.606 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["ajp-nio-8009"]
+09-Mar-2018 14:35:57.658 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping service Catalina
+09-Mar-2018 14:35:57.662 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["http-nio-8080"]
+09-Mar-2018 14:35:57.667 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["ajp-nio-8009"]
+09-Mar-2018 14:35:57.668 INFO [main] org.apache.openejb.server.SimpleServiceManager.stop Stopping server services
+09-Mar-2018 14:35:57.689 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["http-nio-8080"]
+09-Mar-2018 14:35:57.690 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["ajp-nio-8009"]
